@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="JJ Global Consulting – An international engineering consultancy delivering MEP Engineering, BIM, Digital Twin, and Building Services solutions across healthcare, commercial, residential, and infrastructure projects.">
+  <title>JJ Global Consulting | Engineering Excellence. Global Delivery.</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- ======== COOKIE BANNER ======== -->
+  <div id="cookieBanner"
+    style="position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #dde;padding:1rem 1.5rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;z-index:9999;box-shadow:0 -4px 20px rgba(0,0,0,.12);transform:translateY(200%);transition:transform .5s ease;">
+    <p style="margin:0;font-size:.85rem;color:#3d4f6e;">🍪 We use cookies to improve your web experience. <a href="#"
+        style="color:#c9a84c;font-weight:600;">Privacy Policy</a></p>
+    <button id="cookieAccept" class="btn btn--primary" style="padding:.55rem 1.4rem;">Accept</button>
+  </div>
+
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <img src="logo.png" alt="JJ Global Consulting Logo">
+        <div class="navbar__logo-text">
+          <span class="top">JJ Global</span>
+          <span class="sub">Consulting</span>
+        </div>
+      </a>
+
+      <ul class="navbar__nav" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li class="nav-item">
+          <a href="about.html">About ▾</a>
+          <ul class="dropdown">
+            <li><a href="about.html#story">Our Story</a></li>
+            <li><a href="about.html#mission">Mission & Vision</a></li>
+            <li><a href="about.html#team">Leadership</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="services.html">Services ▾</a>
+          <ul class="dropdown">
+            <li><a href="services.html#mep">MEP Engineering</a></li>
+            <li><a href="services.html#bim">BIM Services</a></li>
+            <li><a href="services.html#digital-twin">Digital Twin</a></li>
+            <li><a href="services.html#fire">Fire & Life Safety</a></li>
+            <li><a href="services.html#sustainable">Sustainable Design</a></li>
+            <li><a href="services.html#tdd">Technical Due Diligence</a></li>
+          </ul>
+        </li>
+        <li><a href="sectors.html">Sectors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn btn--primary">Enquire Now</a></li>
+      </ul>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero" id="home">
+    <div class="hero__grid"></div>
+    <div class="hero__glow"></div>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge">International Engineering Consultancy</div>
+        <h1>Engineering <span>Excellence.</span><br>Global Delivery.</h1>
+        <p class="hero__tagline">
+          JJ Global Consulting is an international engineering consultancy focused on delivering innovative MEP
+          Engineering, BIM, Digital Twin, and Building Services solutions across healthcare, commercial, residential,
+          industrial, and infrastructure sectors.
+        </p>
+        <div class="hero__actions">
+          <a href="services.html" class="btn btn--primary">Our Services →</a>
+          <a href="contact.html" class="btn btn--outline">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">Scroll<span></span></div>
+  </section>
+
+  <!-- ======== STATS BAR ======== -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-bar__grid">
+        <div class="stat-item">
+          <div class="num"><span class="counter" data-target="15" data-suffix="+">0+</span></div>
+          <div class="label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="num"><span class="counter" data-target="250" data-suffix="+">0+</span></div>
+          <div class="label">Projects Delivered</div>
+        </div>
+        <div class="stat-item">
+          <div class="num"><span class="counter" data-target="6">0</span></div>
+          <div class="label">Global Offices</div>
+        </div>
+        <div class="stat-item">
+          <div class="num"><span class="counter" data-target="12" data-suffix="+">0+</span></div>
+          <div class="label">Countries Served</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== ABOUT SNIPPET ======== -->
+  <section class="section" id="about-snippet">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image-wrap" data-aos="fade-right">
+          <img src="images/about.jpg" alt="JJ Global Engineering Team at work">
+          <div class="about__badge-card">
+            <div class="big">15+</div>
+            <div class="small">Years of<br>Engineering<br>Excellence</div>
+          </div>
+        </div>
+        <div class="about__content" data-aos="fade-left">
+          <span class="section-tag">About Us</span>
+          <h2>A Global Engineering Consultancy Built on Trust</h2>
+          <p>JJ Global Consulting Pvt. Ltd. is an international engineering consultancy that brings together world-class
+            talent from London, Mumbai, Singapore, Myanmar, and Bhubaneswar to deliver high-performance building
+            engineering solutions.</p>
+          <p>Supported by a multidisciplinary delivery team with deep global project experience, we help clients
+            optimise building performance through sustainable design, digital engineering, and integrated project
+            delivery methodologies.</p>
+          <div class="about__values">
+            <div class="value-pill"><span class="icon">🎯</span>Results-Driven</div>
+            <div class="value-pill"><span class="icon">🌍</span>Globally Connected</div>
+            <div class="value-pill"><span class="icon">⚙️</span>Technically Rigorous</div>
+            <div class="value-pill"><span class="icon">🌱</span>Sustainability First</div>
+          </div>
+          <a href="about.html" class="btn btn--ghost">Learn More About Us →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SERVICES ======== -->
+  <section class="section section--dark" id="services">
+    <div class="container">
+      <div class="services__intro" data-aos="fade-up">
+        <span class="section-tag">What We Do</span>
+        <h2>Our Core Engineering Services</h2>
+        <p>From concept to completion, we deliver integrated engineering solutions that optimise performance and
+          minimise risk.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card" data-aos="fade-up" data-delay="0">
+          <div class="service-card__icon">🔧</div>
+          <h3>MEP Engineering</h3>
+          <p>Full-scope Mechanical, Electrical & Public Health engineering design for complex built environment projects
+            worldwide.</p>
+          <a href="services.html#mep" class="service-card__link">Learn More →</a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="100">
+          <div class="service-card__icon">🏗️</div>
+          <h3>BIM Services</h3>
+          <p>Building Information Modelling across all project stages — from LOD 100 concept to LOD 500 as-built
+            delivery.</p>
+          <a href="services.html#bim" class="service-card__link">Learn More →</a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="200">
+          <div class="service-card__icon">🌐</div>
+          <h3>Digital Twin Solutions</h3>
+          <p>Live connected digital replicas of physical assets enabling real-time monitoring, optimisation, and
+            predictive maintenance.</p>
+          <a href="services.html#digital-twin" class="service-card__link">Learn More →</a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="0">
+          <div class="service-card__icon">🔥</div>
+          <h3>Fire & Life Safety</h3>
+          <p>Comprehensive fire engineering, detection, suppression, and evacuation strategy design in compliance with
+            international codes.</p>
+          <a href="services.html#fire" class="service-card__link">Learn More →</a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="100">
+          <div class="service-card__icon">🌿</div>
+          <h3>Sustainable Design</h3>
+          <p>Net-zero and low-carbon design strategies, energy modelling, and LEED/BREEAM/GRIHA certification support.
+          </p>
+          <a href="services.html#sustainable" class="service-card__link">Learn More →</a>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-delay="200">
+          <div class="service-card__icon">📋</div>
+          <h3>Technical Due Diligence</h3>
+          <p>Independent assessments of existing M&E systems, condition surveys, and risk profiling for acquisition or
+            development.</p>
+          <a href="services.html#tdd" class="service-card__link">Learn More →</a>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:2.5rem">
+        <a href="services.html" class="btn btn--ghost">View All Services →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SECTORS ======== -->
+  <section class="section section--gray" id="sectors">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem" data-aos="fade-up">
+        <span class="section-tag">Sectors</span>
+        <h2>Industries We Serve</h2>
+        <p>Decades of cross-sector expertise enabling tailored solutions for every project type.</p>
+      </div>
+      <div class="sectors__grid">
+        <div class="sector-card" data-aos="fade-up" data-delay="0">
+          <img src="images/sector-healthcare.jpg" alt="Healthcare Engineering">
+          <div class="sector-card__overlay">
+            <div>
+              <h3>Healthcare</h3>
+              <p>Hospitals, clinics, and healthcare facilities with critical M&E systems.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sector-card" data-aos="fade-up" data-delay="100">
+          <img src="images/sector-commercial.jpg" alt="Commercial Buildings">
+          <div class="sector-card__overlay">
+            <div>
+              <h3>Commercial</h3>
+              <p>Grade-A offices, mixed-use developments, and retail destinations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sector-card" data-aos="fade-up" data-delay="200">
+          <img src="images/sector-residential.jpg" alt="Residential Projects">
+          <div class="sector-card__overlay">
+            <div>
+              <h3>Residential</h3>
+              <p>High-rise luxury residential, affordable housing, and master plans.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sector-card" data-aos="fade-up" data-delay="0">
+          <img src="images/sector-industrial.jpg" alt="Industrial Facilities">
+          <div class="sector-card__overlay">
+            <div>
+              <h3>Industrial</h3>
+              <p>Manufacturing plants, data centres, and logistics facilities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sector-card" data-aos="fade-up" data-delay="100">
+          <img src="images/sector-infra.jpg" alt="Infrastructure">
+          <div class="sector-card__overlay">
+            <div>
+              <h3>Infrastructure</h3>
+              <p>Transport hubs, utilities, and civils engineering integration.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sector-card" data-aos="fade-up" data-delay="200">
+          <img src="images/sector-education.jpg" alt="Education Sector">
+          <div class="sector-card__overlay">
+            <div>
+              <h3>Education</h3>
+              <p>Schools, universities, and research laboratories.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:2.5rem">
+        <a href="sectors.html" class="btn btn--ghost">Explore All Sectors →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== WHY CHOOSE US ======== -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem" data-aos="fade-up">
+        <span class="section-tag">Why JJ Global</span>
+        <h2>Our Differentiators</h2>
+      </div>
+      <div class="why__grid">
+        <div class="why-item" data-aos="fade-up" data-delay="0">
+          <div class="why-item__icon">🌍</div>
+          <h3>Global Reach</h3>
+          <p>Offices in London, Mumbai, Bhubaneswar, Singapore & Myanmar — local knowledge, international standards.</p>
+        </div>
+        <div class="why-item" data-aos="fade-up" data-delay="100">
+          <div class="why-item__icon">💡</div>
+          <h3>Digital First</h3>
+          <p>BIM Level 2/3 certified delivery with Digital Twin and IoT integration embedded from day one.</p>
+        </div>
+        <div class="why-item" data-aos="fade-up" data-delay="200">
+          <div class="why-item__icon">🏅</div>
+          <h3>Proven Expertise</h3>
+          <p>15+ years of multi-disciplinary engineering excellence across complex, high-value projects.</p>
+        </div>
+        <div class="why-item" data-aos="fade-up" data-delay="300">
+          <div class="why-item__icon">🤝</div>
+          <h3>Client Partnership</h3>
+          <p>Collaborative, transparent, and always aligned with client goals — from feasibility to handover.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== OFFICES ======== -->
+  <section class="section" id="offices">
+    <div class="container">
+      <div class="text-center" style="margin-bottom:3rem" data-aos="fade-up">
+        <span class="section-tag">Our Presence</span>
+        <h2>Our Offices</h2>
+        <p>Strategically located to serve clients across the globe.</p>
+      </div>
+      <div class="offices__grid">
+        <div class="office-card" data-aos="fade-up" data-delay="0">
+          <div class="office-card__header">
+            <div class="office-card__flag">🇬🇧</div>
+            <div>
+              <h3>London</h3>
+              <div class="country">United Kingdom — UK Business Operations</div>
+            </div>
+          </div>
+          <div class="office-card__body">
+            <span class="label">Address</span>
+            <p>London, United Kingdom</p>
+          </div>
+        </div>
+        <div class="office-card" data-aos="fade-up" data-delay="100">
+          <div class="office-card__header">
+            <div class="office-card__flag">🇮🇳</div>
+            <div>
+              <h3>Mumbai</h3>
+              <div class="country">India — Engineering Delivery Centre</div>
+            </div>
+          </div>
+          <div class="office-card__body">
+            <span class="label">Address</span>
+            <p>205, Kateeleswar Plaza,<br>Near Check Naka,<br>Mulund West, Mumbai – 400 080</p>
+          </div>
+        </div>
+        <div class="office-card" data-aos="fade-up" data-delay="200">
+          <div class="office-card__header">
+            <div class="office-card__flag">🇮🇳</div>
+            <div>
+              <h3>Bhubaneswar</h3>
+              <div class="country">India — Regional Office</div>
+            </div>
+          </div>
+          <div class="office-card__body">
+            <span class="label">Address</span>
+            <p>JJ House,<br>Kalingavihar,<br>Bhubaneswar, Odisha</p>
+          </div>
+        </div>
+      </div>
+      <!-- International presence -->
+      <div style="margin-top:2rem;text-align:center" data-aos="fade-up">
+        <p style="color:var(--text-muted);font-size:.9rem;margin-bottom:1rem;">International Representative Offices</p>
+        <div class="int-offices" style="justify-content:center">
+          <span>🇸🇬 Singapore</span>
+          <span>🇲🇲 Myanmar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CTA ======== -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-section__content" data-aos="fade-up">
+        <span class="section-tag">Work With Us</span>
+        <h2>Let's Build Something<br>Extraordinary Together</h2>
+        <p>Whether you're at feasibility stage or need specialist engineering delivery support, our team is ready to
+          help you succeed.</p>
+        <div class="cta-section__actions">
+          <a href="contact.html" class="btn btn--primary">Start a Conversation →</a>
+          <a href="services.html" class="btn btn--outline">Explore Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="logo.png" alt="JJ Global Consulting">
+          <p>An international engineering consultancy delivering MEP, BIM, Digital Twin, and Building Services solutions
+            across healthcare, commercial, residential, and infrastructure sectors.</p>
+          <span class="tagline">Engineering Excellence. Global Delivery.</span>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#mep">MEP Engineering</a></li>
+            <li><a href="services.html#bim">BIM Services</a></li>
+            <li><a href="services.html#digital-twin">Digital Twin</a></li>
+            <li><a href="services.html#fire">Fire & Life Safety</a></li>
+            <li><a href="services.html#sustainable">Sustainable Design</a></li>
+            <li><a href="services.html#tdd">Technical Due Diligence</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="sectors.html">Sectors</a></li>
+            <li><a href="about.html#team">Our Team</a></li>
+            <li><a href="contact.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Get In Touch</h4>
+          <div class="footer__contact-item">
+            <span class="ico">📧</span>
+            <p><a href="mailto:info@jjglobal.co.in" style="color:var(--gold)">info@jjglobal.co.in</a></p>
+          </div>
+          <div class="footer__contact-item">
+            <span class="ico">📍</span>
+            <p>205, Kateeleswar Plaza, Mulund West, Mumbai – 400 080</p>
+          </div>
+          <div class="footer__contact-item">
+            <span class="ico">📍</span>
+            <p>JJ House, Kalingavihar, Bhubaneswar</p>
+          </div>
+          <div class="footer__contact-item">
+            <span class="ico">🌍</span>
+            <p>London | Singapore | Myanmar</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__bottom">
+        <p>© 2026 JJ Global Consulting Pvt. Ltd. All rights reserved.</p>
+        <div style="display:flex;gap:1.5rem">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

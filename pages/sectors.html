@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="JJ Global Consulting serves healthcare, commercial, residential, industrial, infrastructure and education sectors with expert MEP and BIM engineering.">
+    <title>Sectors | JJ Global Consulting</title>
+    <link rel="icon" href="../logo.png" type="image/png">
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+        .sector-detail {
+            padding: 70px 0;
+            border-bottom: 1px solid #e8ecf4;
+        }
+
+        .sector-detail:last-child {
+            border-bottom: none;
+        }
+
+        .sector-detail__grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .sector-thumb {
+            border-radius: var(--radius);
+            overflow: hidden;
+            aspect-ratio: 4/3;
+        }
+
+        .sector-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .projects-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(201, 168, 76, 0.1);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            padding: 0.4rem 1rem;
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+
+        @media(max-width:768px) {
+            .sector-detail__grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar__inner">
+            <a href="../index.html" class="navbar__logo">
+                <img src="../logo.png" alt="JJ Global Consulting">
+                <div class="navbar__logo-text"><span class="top">JJ Global</span><span class="sub">Consulting</span>
+                </div>
+            </a>
+            <ul class="navbar__nav" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="sectors.html" class="active">Sectors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn--primary">Enquire Now</a></li>
+            </ul>
+            <button class="navbar__toggle" id="navToggle"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="breadcrumb"><a href="../index.html">Home</a><span
+                    class="breadcrumb__sep">/</span><span>Sectors</span></div>
+            <h1>Industries <span class="text-gold">We Serve</span></h1>
+            <p>Deep sector expertise across healthcare, commercial, residential, industrial, infrastructure, and
+                education projects worldwide.</p>
+        </div>
+    </section>
+
+    <!-- SECTORS OVERVIEW GRID -->
+    <section class="section section--gray">
+        <div class="container">
+            <div class="sectors__grid">
+                <div class="sector-card"><img src="../images/sector-healthcare.jpg" alt="Healthcare">
+                    <div class="sector-card__overlay">
+                        <div>
+                            <h3>Healthcare</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-card"><img src="../images/sector-commercial.jpg" alt="Commercial">
+                    <div class="sector-card__overlay">
+                        <div>
+                            <h3>Commercial</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-card"><img src="../images/sector-residential.jpg" alt="Residential">
+                    <div class="sector-card__overlay">
+                        <div>
+                            <h3>Residential</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-card"><img src="../images/sector-industrial.jpg" alt="Industrial">
+                    <div class="sector-card__overlay">
+                        <div>
+                            <h3>Industrial</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-card"><img src="../images/sector-infra.jpg" alt="Infrastructure">
+                    <div class="sector-card__overlay">
+                        <div>
+                            <h3>Infrastructure</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-card"><img src="../images/sector-education.jpg" alt="Education">
+                    <div class="sector-card__overlay">
+                        <div>
+                            <h3>Education</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTOR DETAIL SECTIONS -->
+    <div class="container">
+
+        <div class="sector-detail">
+            <div class="sector-detail__grid">
+                <div class="sector-thumb" data-aos="fade-right">
+                    <img src="../images/sector-healthcare.jpg" alt="Healthcare Engineering">
+                </div>
+                <div data-aos="fade-left">
+                    <div class="projects-badge">🏥 Healthcare Sector</div>
+                    <h2>Healthcare & Life Sciences</h2>
+                    <p>Healthcare facilities demand the highest standards of engineering performance, hygiene,
+                        resilience, and patient safety. JJ Global Consulting brings deep specialist knowledge of
+                        hospital and clinical environment MEP design, including critical infrastructure sizing,
+                        infection control considerations, and 24/7 operational continuity.</p>
+                    <p>Our services span hospitals, diagnostic imaging suites, clean rooms, laboratories, pharmacies,
+                        and GP surgeries.</p>
+                    <ul class="deliverable-list" style="list-style:none;padding:0;margin:1.5rem 0">
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> Medical gas systems (HTM 02-01)
+                        </li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> Infection control ventilation and
+                            HEPA filtration</li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> Critical power and UPS systems</li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> HTM/HBN guidance compliance (NHS)
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="btn btn--ghost">Discuss Your Healthcare Project →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sector-detail">
+            <div class="sector-detail__grid" style="direction:rtl">
+                <div style="direction:ltr" class="sector-thumb" data-aos="fade-left">
+                    <img src="../images/sector-commercial.jpg" alt="Commercial Buildings">
+                </div>
+                <div style="direction:ltr" data-aos="fade-right">
+                    <div class="projects-badge">🏢 Commercial Sector</div>
+                    <h2>Commercial & Mixed-Use</h2>
+                    <p>From Grade-A office towers and retail flagship stores to hotels and mixed-use masterplans, JJ
+                        Global Consulting delivers high-performance, energy-efficient MEP and BIM solutions that meet
+                        the demands of the modern commercial real estate market.</p>
+                    <ul class="deliverable-list" style="list-style:none;padding:0;margin:1.5rem 0">
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> LEED/BREEAM certified design</li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> Smart building BMS integration</li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> EV charging infrastructure</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn--ghost">Discuss Your Commercial Project →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sector-detail">
+            <div class="sector-detail__grid">
+                <div class="sector-thumb" data-aos="fade-right">
+                    <img src="../images/sector-residential.jpg" alt="Residential">
+                </div>
+                <div data-aos="fade-left">
+                    <div class="projects-badge">🏘️ Residential Sector</div>
+                    <h2>Residential & Build-to-Rent</h2>
+                    <p>Our residential engineering team provides intelligent, cost-sensitive MEP solutions from
+                        high-rise luxury developments to affordable housing masterplans and build-to-rent communities.
+                        We understand the balance between occupant comfort, communal services, and development
+                        viability.</p>
+                    <ul class="deliverable-list" style="list-style:none;padding:0;margin:1.5rem 0">
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> District heating and communal plant
+                        </li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> SAP and EPC energy compliance</li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> Fire compartmentation and strategy
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="btn btn--ghost">Discuss Your Residential Project →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sector-detail">
+            <div class="sector-detail__grid" style="direction:rtl">
+                <div style="direction:ltr" class="sector-thumb" data-aos="fade-left">
+                    <img src="../images/sector-industrial.jpg" alt="Industrial">
+                </div>
+                <div style="direction:ltr" data-aos="fade-right">
+                    <div class="projects-badge">🏭 Industrial Sector</div>
+                    <h2>Industrial & Data Centres</h2>
+                    <p>Industrial environments and mission-critical data centres require robust, resilient, and highly
+                        engineered M&E solutions. JJ Global Consulting designs resilient systems that ensure uptime,
+                        operational efficiency, and safety across manufacturing, logistics, and technology
+                        infrastructure.</p>
+                    <ul class="deliverable-list" style="list-style:none;padding:0;margin:1.5rem 0">
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> Data centre cooling (CRAC/CRAH,
+                            liquid cooling)</li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> N+1 and 2N redundancy power systems
+                        </li>
+                        <li
+                            style="padding:.5rem 0;border-bottom:1px solid #eef;display:flex;gap:.75rem;align-items:center">
+                            <span style="color:var(--gold);font-weight:700">✓</span> PUE optimisation strategies</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn--ghost">Discuss Your Industrial Project →</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-section__content" data-aos="fade-up">
+                <span class="section-tag">Work With Us</span>
+                <h2>Engineering Your Sector, Globally</h2>
+                <p>Tell us about your project and let our specialist team deliver the engineering excellence you need.
+                </p>
+                <div class="cta-section__actions">
+                    <a href="contact.html" class="btn btn--primary">Contact Our Team →</a>
+                    <a href="services.html" class="btn btn--outline">View All Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="../logo.png" alt="JJ Global Consulting">
+                    <p>An international engineering consultancy delivering MEP, BIM, Digital Twin, and Building Services
+                        solutions globally.</p>
+                    <span class="tagline">Engineering Excellence. Global Delivery.</span>
+                </div>
+                <div class="footer__col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#mep">MEP Engineering</a></li>
+                        <li><a href="services.html#bim">BIM Services</a></li>
+                        <li><a href="services.html#digital-twin">Digital Twin</a></li>
+                        <li><a href="services.html#fire">Fire & Life Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="sectors.html">Sectors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Get In Touch</h4>
+                    <div class="footer__contact-item"><span class="ico">📧</span>
+                        <p><a href="mailto:info@jjglobal.co.in" style="color:var(--gold)">info@jjglobal.co.in</a></p>
+                    </div>
+                    <div class="footer__contact-item"><span class="ico">🌍</span>
+                        <p>London | Mumbai | Bhubaneswar | Singapore | Myanmar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__divider"></div>
+            <div class="footer__bottom">
+                <p>© 2026 JJ Global Consulting Pvt. Ltd. All rights reserved.</p>
+                <div style="display:flex;gap:1.5rem"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

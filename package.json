@@ -1,0 +1,12 @@
+{
+  "name": "jj-global-consulting",
+  "version": "1.0.0",
+  "description": "JJ Global Consulting — Official Website",
+  "scripts": {
+    "dev": "npx live-server --port=3030 --open=index.html --host=localhost --no-browser",
+    "start": "npx live-server --port=3030 --open=index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
